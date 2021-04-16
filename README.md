@@ -15,7 +15,6 @@ Prerequisites (2):
  - For single file convert:
 
   ```
-   pip install openpyxl
    python csv_xlsx.py -i <PATH/TO/CSV> -o <PATH/TO/OUTPUT/XLSX
  ```
    > Example: `python csv_xlsx.py -i ~/Downloads/my-sample.csv -o my-sample.xlsx`
@@ -23,7 +22,6 @@ Prerequisites (2):
  - For multiple files convert:
 
   ```
-  pip install openpyxl
   python csv_xlsx_bulk.py -i <PATH/TO/CSV/FOLDER>
  ```
    > Example: `python csv_xlsx_bulk.py -i ~/Downloads/my-csv-folder/`
@@ -33,5 +31,10 @@ Prerequisites (2):
 
 ### Troubleshootings
 1. How to install python in Windows 10 pro?
+
  -> Please visit [https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/) and follow the instructions
+
+2. `ModuleNotFoundError: No module named 'openpyxl'`
+
+ -> Install module openpyxl via [pip](https://www.liquidweb.com/kb/install-pip-windows/): `pip install openpyxl`
 
