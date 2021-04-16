@@ -2,7 +2,7 @@
 Convert .CSV to any format
 
 ## To .XLSX
-### Prerequisites (2): 
+### Prerequisites
  - [python 2+](https://www.python.org/downloads)
  - [pip](https://pip.pypa.io/en/stable/installing/)
 
