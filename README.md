@@ -42,9 +42,9 @@ Convert .CSV to any format
  - For single file convert:
 
   ```
-   python csv_utf8sig.py -i <PATH/TO/CSV> -o <PATH/TO/OUTPUT/XLSX>
+   python csv_utf8sig.py -i <PATH/TO/CSV> -o <PATH/TO/OUTPUT/CSV>
  ```
-   > Example: `python csv_utf8sig.py -i ~/Downloads/my-sample.csv -o my-sample.xlsx`
+   > Example: `python csv_utf8sig.py -i ~/Downloads/my-sample.csv -o my-sample.utf8sig.csv`
 
  - For multiple files convert:
 
