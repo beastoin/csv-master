@@ -2,11 +2,11 @@
 Convert .CSV to any format
 
 ## To .XLSX
-Prerequisites (2): 
+### Prerequisites (2): 
  - [python 2+](https://www.python.org/downloads)
  - [pip](https://pip.pypa.io/en/stable/installing/)
 
-### RUN
+### Run
 
 1. Open command line tool, e.g Terminal, Powershell
 
@@ -27,7 +27,6 @@ Prerequisites (2):
    > Example: `python csv_xlsx_bulk.py -i ~/Downloads/my-csv-folder/`
   - NOTICE: Input folder path must end with `/` character
   - The .xlsx files will be located in the same folder with the .csv files
-
 
 ### Troubleshootings
 1. How to install python in Windows 10 pro?
