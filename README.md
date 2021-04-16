@@ -4,7 +4,7 @@ Convert .CSV to any format
 ## To .XLSX
 Prerequisites (2): 
  - [python 2+](https://www.python.org/downloads)
- - [pip](https://www.liquidweb.com/kb/install-pip-windows/)
+ - [pip](https://pip.pypa.io/en/stable/installing/)
 
 ### RUN
 
@@ -36,5 +36,5 @@ Prerequisites (2):
 
 2. `ModuleNotFoundError: No module named 'openpyxl'`
 
- -> Install module openpyxl via [pip](https://www.liquidweb.com/kb/install-pip-windows/): `pip install openpyxl`
+ -> Install module openpyxl via [pip](https://pip.pypa.io/en/stable/installing/): `pip install openpyxl`
 
