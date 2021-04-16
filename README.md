@@ -1,10 +1,12 @@
 # CSV MASTER
-Convert csv to any format
+Convert .CSV to any format
 
-##.XLSX
-Prerequisite: python 2+
+## To .XLSX
+### Prerequisites
+ - [python 2+](https://www.python.org/downloads)
+ - [pip](https://pip.pypa.io/en/stable/installing/)
 
-### RUN
+### Run
 
 1. Open command line tool, e.g Terminal, Powershell
 
@@ -13,21 +15,25 @@ Prerequisite: python 2+
  - For single file convert:
 
   ```
- python csv_xlsx.py -i <PATH/TO/CSV> -o <PATH/TO/OUTPUT/XLSX
+   python csv_xlsx.py -i <PATH/TO/CSV> -o <PATH/TO/OUTPUT/XLSX>
  ```
-
-  > Example: `python csv_xlsx.py -i ~/Downloads/my-sample.csv -o my-sample.xlsx`
+   > Example: `python csv_xlsx.py -i ~/Downloads/my-sample.csv -o my-sample.xlsx`
 
  - For multiple files convert:
 
   ```
- python csv_xlsx_bulk.py -i <PATH/TO/CSV/FOLDER>
+  python csv_xlsx_bulk.py -i <PATH/TO/CSV/FOLDER>
  ```
-  - NOTICE: Input folder must end with `/` character
-  > Example: `python csv_xlsx_bulk.py -i ~/Downloads/my-csv-folder/`
+   > Example: `python csv_xlsx_bulk.py -i ~/Downloads/my-csv-folder/`
+  - NOTICE: Input folder path must end with `/` character
+  - The .xlsx files will be located in the same folder with the .csv files
 
-
-### Troubleshotings
+### Troubleshootings
 1. How to install python in Windows 10 pro?
+
  -> Please visit [https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/) and follow the instructions
+
+2. `ModuleNotFoundError: No module named 'openpyxl'`
+
+ -> Install module openpyxl via [pip](https://pip.pypa.io/en/stable/installing/): `pip install openpyxl`
 
