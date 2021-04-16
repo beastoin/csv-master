@@ -25,7 +25,7 @@ Prerequisites (2):
   python csv_xlsx_bulk.py -i <PATH/TO/CSV/FOLDER>
  ```
    > Example: `python csv_xlsx_bulk.py -i ~/Downloads/my-csv-folder/`
-  - NOTICE: Input folder must end with `/` character
+  - NOTICE: Input folder path must end with `/` character
   - The .xlsx files will be located in the same folder with the .csv files
 
 
