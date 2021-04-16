@@ -1,7 +1,7 @@
 # CSV MASTER
-Convert csv to any format
+Convert .CSV to any format
 
-## .XLSX
+## To .XLSX
 Prerequisites (2): 
  - [python 2+](https://www.python.org/downloads)
  - [pip](https://www.liquidweb.com/kb/install-pip-windows/)
