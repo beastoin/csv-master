@@ -27,7 +27,7 @@ Prerequisite: [python 2+](https://www.python.org/downloads)
   - The .xlsx files will be located in the same folder with the .csv files
 
 
-### Troubleshotings
+### Troubleshootings
 1. How to install python in Windows 10 pro?
  -> Please visit [https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/) and follow the instructions
 
