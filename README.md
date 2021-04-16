@@ -2,7 +2,9 @@
 Convert csv to any format
 
 ## .XLSX
-Prerequisite: [python 2+](https://www.python.org/downloads), [pip](https://www.liquidweb.com/kb/install-pip-windows/)
+Prerequisites (2): 
+ - [python 2+](https://www.python.org/downloads)
+ - [pip](https://www.liquidweb.com/kb/install-pip-windows/)
 
 ### RUN
 
