@@ -15,7 +15,7 @@ Prerequisites (2):
  - For single file convert:
 
   ```
-   python csv_xlsx.py -i <PATH/TO/CSV> -o <PATH/TO/OUTPUT/XLSX
+   python csv_xlsx.py -i <PATH/TO/CSV> -o <PATH/TO/OUTPUT/XLSX>
  ```
    > Example: `python csv_xlsx.py -i ~/Downloads/my-sample.csv -o my-sample.xlsx`
 
