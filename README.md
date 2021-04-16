@@ -15,7 +15,6 @@ Prerequisite: [python 2+](https://www.python.org/downloads)
   ```
    python csv_xlsx.py -i <PATH/TO/CSV> -o <PATH/TO/OUTPUT/XLSX
  ```
-
    > Example: `python csv_xlsx.py -i ~/Downloads/my-sample.csv -o my-sample.xlsx`
 
  - For multiple files convert:
@@ -23,9 +22,9 @@ Prerequisite: [python 2+](https://www.python.org/downloads)
   ```
   python csv_xlsx_bulk.py -i <PATH/TO/CSV/FOLDER>
  ```
+   > Example: `python csv_xlsx_bulk.py -i ~/Downloads/my-csv-folder/`
   - NOTICE: Input folder must end with `/` character
   - The .xlsx files will be located in the same folder with the .csv files
-   > Example: `python csv_xlsx_bulk.py -i ~/Downloads/my-csv-folder/`
 
 
 ### Troubleshotings
