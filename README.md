@@ -1,7 +1,7 @@
 # CSV MASTER
 Convert csv to any format
 
-##.XLSX
+## .XLSX
 Prerequisite: python 2+
 
 ### RUN
@@ -16,7 +16,7 @@ Prerequisite: python 2+
  python csv_xlsx.py -i <PATH/TO/CSV> -o <PATH/TO/OUTPUT/XLSX
  ```
 
-  > Example: `python csv_xlsx.py -i ~/Downloads/my-sample.csv -o my-sample.xlsx`
+   > Example: `python csv_xlsx.py -i ~/Downloads/my-sample.csv -o my-sample.xlsx`
 
  - For multiple files convert:
 
@@ -24,7 +24,7 @@ Prerequisite: python 2+
  python csv_xlsx_bulk.py -i <PATH/TO/CSV/FOLDER>
  ```
   - NOTICE: Input folder must end with `/` character
-  > Example: `python csv_xlsx_bulk.py -i ~/Downloads/my-csv-folder/`
+   > Example: `python csv_xlsx_bulk.py -i ~/Downloads/my-csv-folder/`
 
 
 ### Troubleshotings
