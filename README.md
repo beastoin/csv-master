@@ -1,9 +1,10 @@
 # CSV MASTER
 Convert  [.CSV](https://tools.ietf.org/html/rfc4180) to any format ~
 
-Supported formats (2):
+Supported formats (3):
  - [.XLSX](https://docs.microsoft.com/en-us/openspecs/office_standards/ms-xlsx/) 👉 [jump](https://github.com/beastoin/csv-master#to-xlsx)
  - [.CSV Utf8 Sig (BOM)](https://tools.ietf.org/html/rfc3629#section-6) 👉 [jump](https://github.com/beastoin/csv-master#to-csv-utf8-sig-utf8-bom)
+ - [SQLITE](https://sqlite.org/docs.html)  👉 [jump to Simmon Willison's repo](https://github.com/simonw/csvs-to-sqlite)
 
 ## To .XLSX
 ### Prerequisites
