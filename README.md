@@ -4,7 +4,7 @@ Convert  [.CSV](https://tools.ietf.org/html/rfc4180) to any format ~
 Supported formats (3):
  - To [.XLSX](https://docs.microsoft.com/en-us/openspecs/office_standards/ms-xlsx/) 👉 [jump](https://github.com/beastoin/csv-master#to-xlsx)
  - To [.CSV Utf8 Sig (BOM)](https://tools.ietf.org/html/rfc3629#section-6) 👉 [jump](https://github.com/beastoin/csv-master#to-csv-utf8-sig-utf8-bom)
- - To[SQLITE](https://sqlite.org/docs.html)  👉 [jump to Simmon Willison's repo](https://github.com/simonw/csvs-to-sqlite)
+ - To [SQLITE](https://sqlite.org/docs.html)  👉 [jump to Simmon Willison's repo](https://github.com/simonw/csvs-to-sqlite)
 
 ## To .XLSX
 ### Prerequisites
