@@ -29,6 +29,6 @@ for x in files:
     with ExcelWriter(out) as ew:
         df = pandas.read_csv(path, encoding='utf8')
         df = df.replace(to_replace=ILLEGAL_CHARACTERS_RE, value='', regex=True)
-        df.to_excel(ew, sheet_name="Sheet1")
+        df.to_excel(ew, sheet_name="Sheet1", index=False)
 
     print("  -> DONE")
