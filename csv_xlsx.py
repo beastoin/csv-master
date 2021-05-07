@@ -1,6 +1,8 @@
+from pandas.io.excel import ExcelWriter
+from openpyxl.cell.cell import ILLEGAL_CHARACTERS_RE
+import pandas
 import argparse
 import csv
-from openpyxl import Workbook
 
 # Command-line args parser
 parser = argparse.ArgumentParser()
@@ -17,11 +19,9 @@ out = args.output
 print("CONVERTING...", path)
 print("  ->", out)
 
-wb = Workbook()
-ws = wb.active
-with open(path, 'r') as f:
-    for row in csv.reader(f):
-        ws.append(row)
-wb.save(out)
+with ExcelWriter(out) as ew:
+    df = pandas.read_csv(path, encoding='utf8')
+    df = df.replace(to_replace=ILLEGAL_CHARACTERS_RE, value='', regex=True)
+    df.to_excel(ew, sheet_name="Sheet1")
 
 print("  -> DONE")
